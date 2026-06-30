@@ -1,8 +1,6 @@
 /.venv
-/plots
+/figures
+
 instrucoes.pdf
-Definicao.pdf
-links.md
-decisoes.md
-relatorio.md
 tasks.txt
+decisoes.md
