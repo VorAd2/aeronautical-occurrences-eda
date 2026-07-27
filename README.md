@@ -3,7 +3,7 @@
 [![Python](https://img.shields.io/badge/Python-3.11%2B-blue.svg)](https://www.python.org/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-Este repositório é o trabalho final desenvolvido para a disciplina **CC0280 – Análise Exploratória de Dados (2026.1)**. O projeto realiza uma análise exploratória de dados sobre uma base pública de ocorrências aeronáuticas registradas no Brasil, investigando padrões de segurança operacional, severidade dos eventos, perfil do porte das aeronaves e danos humanos nos diferentes segmentos da aviação.
+Este repositório é o trabalho final desenvolvido para a disciplina **Análise Exploratória de Dados (2026.1)**. O projeto realiza uma análise exploratória de dados sobre uma base pública de ocorrências aeronáuticas registradas no Brasil, investigando padrões de segurança operacional, severidade dos eventos, perfil do porte das aeronaves e danos humanos nos diferentes segmentos da aviação.
 
 **Relatório Completo:** [relatorio.pdf](/relatorio.pdf)
 
