@@ -82,6 +82,8 @@ jupyter notebook main.ipynb
 
 O projeto será aberto automaticamente no seu navegador padrão.
 
+---
+
 ## 📄 Fonte do Banco & Licença
 - Fonte: Portal de Dados Abertos do Governo Federal.
 - Licença: Este projeto está sob a licença MIT.
