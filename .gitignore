@@ -1,6 +1,4 @@
 /.venv
+.notes
 /figures
-
-instrucoes.pdf
-tasks.txt
-decisoes.md
+.ipynb_checkpoints
