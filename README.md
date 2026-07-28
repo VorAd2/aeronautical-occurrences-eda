@@ -67,7 +67,7 @@ pip install -r requirements-lock.txt
 ```
 
 ### 4. Run!!
-Existem duas formas simples de executar a análise.
+Existem duas formas simples de executar o notebook.
 
 #### Opção A: Via VS Code
 1. Com o diretório do projeto aberto no editor, abra o arquivo `main.ipynb`.
