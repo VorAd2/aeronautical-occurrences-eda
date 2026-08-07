@@ -9,26 +9,32 @@ Este repositório é o trabalho final desenvolvido para a disciplina **Análise 
 
 ---
 
-## 📌 Objetivos da Análise
+## Objetivos da Análise
 
 - **Análise de Severidade:** Avaliar a distribuição entre *Acidentes* e *Incidentes Graves*.
 - **Perfil Temporal:** Mapear a evolução das ocorrências ao longo dos anos.
 - **Porte Estrutural:** Investigar o comportamento estatístico do Peso Máximo de Decolagem (PMD).
 - **Danos Humanos:** Quantificar lesões e fatalidades e cruzá-las com os tipos de operação aeronáutica.
 
-## 📊 Principais Descobertas
+---
+
+## Principais Descobertas
 - **Viés de Notificação:** Predominância de eventos estrutural ou biologicamente severos (Acidentes) na base pública devido às exigências regulatórias para essas ocorrências.
 - **Concentração na Aviação Geral:** Voos privados, agrícolas e de instrução (todos não comerciais) respondem pela maior fatia do volume total de ocorrências e, portanto, concentram a maioria esmagadora dos acidentes aeronáuticos.
 - **Assimetria do Porte (PMD):** A imensa maioria dos eventos envolve aeronaves de pequeno e médio porte (consequência da concentração das operações), enquanto jatos comerciais de grande porte atuam como outliers estatísticos.
 - **Danos Humanos**: A maioria das ocorrências não resulta em óbitos humanos, ainda que os eventos de maior severidade estrutural sejam predominantes. Entretanto, as ocorrências biologicamente letais, ainda que raras, estão presentes e associadas, sobretudo, aos voos de grande porte.
 
-## 🛠️ Tecnologias Usadas
+---
+
+## Tecnologias Usadas
 - Python (Pandas, NumPy, Matplotlib, Seaborn)
 - LaTex
 - Visual Studio Code
 - Google Gemini
 
-## 🚀 Como Executar
+---
+
+## Como Executar
 Para fins didáticos, o seguinte passo a passo levará em consideração que o leitor possui instaladas as seguintes ferramentas:
 - **Git**.
 - **pyenv** (recomendado) ou **Python 3.11.5** instalado globalmente.
@@ -82,8 +88,3 @@ jupyter notebook main.ipynb
 
 O projeto será aberto automaticamente no seu navegador padrão.
 
----
-
-## 📄 Fonte do Banco & Licença
-- Fonte: Portal de Dados Abertos do Governo Federal.
-- Licença: Este projeto está sob a licença MIT.
