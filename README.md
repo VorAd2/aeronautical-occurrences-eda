@@ -1,4 +1,4 @@
-# ✈️ Análise Exploratória de Dados: Ocorrências Aeronáuticas no Brasil
+# ✈️ Análise de Dados: Ocorrências Aeronáuticas no Brasil
 
 Este repositório é o trabalho final desenvolvido para a disciplina **Análise Exploratória de Dados (2026.1)**. O projeto realiza uma análise exploratória de dados sobre uma base pública de ocorrências aeronáuticas registradas no Brasil, investigando padrões de segurança operacional, perfil dos voos e danos humanos nos diferentes segmentos da aviação.
 
