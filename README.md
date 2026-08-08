@@ -1,7 +1,8 @@
 # ✈️ Análise Exploratória de Dados: Ocorrências Aeronáuticas no Brasil
 
-[![Python](https://img.shields.io/badge/Python-3.11%2B-blue.svg)](https://www.python.org/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)](https://www.python.org/)
+[![Jupyter Notebook](https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white)](https://jupyter.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](LICENSE)
 
 Este repositório é o trabalho final desenvolvido para a disciplina **Análise Exploratória de Dados (2026.1)**. O projeto realiza uma análise exploratória de dados sobre uma base pública de ocorrências aeronáuticas registradas no Brasil, investigando padrões de segurança operacional, perfil dos voos e danos humanos nos diferentes segmentos da aviação.
 
@@ -9,7 +10,16 @@ Este repositório é o trabalho final desenvolvido para a disciplina **Análise 
 
 ---
 
-## Objetivos da Análise
+# Sumário
+- [Objetivos](#objetivos-da-análise)
+- [Descobertas](#principais-descobertas)
+- [Tecnologias Usadas](#tecnologias-usadas)
+- [Como Executar](#como-executar)
+- [Licença](#licença)
+
+---
+
+# Objetivos da Análise
 
 - **Análise de Severidade:** Avaliar a distribuição entre *Acidentes* e *Incidentes Graves*.
 - **Perfil Temporal:** Mapear a evolução das ocorrências ao longo dos anos.
@@ -18,7 +28,7 @@ Este repositório é o trabalho final desenvolvido para a disciplina **Análise 
 
 ---
 
-## Principais Descobertas
+# Principais Descobertas
 - **Viés de Notificação:** Predominância de eventos estrutural ou biologicamente severos (Acidentes) na base pública devido às exigências regulatórias para essas ocorrências.
 - **Concentração na Aviação Geral:** Voos privados, agrícolas e de instrução (todos não comerciais) respondem pela maior fatia do volume total de ocorrências e, portanto, concentram a maioria esmagadora dos acidentes aeronáuticos.
 - **Assimetria do Porte (PMD):** A imensa maioria dos eventos envolve aeronaves de pequeno e médio porte (consequência da concentração das operações), enquanto jatos comerciais de grande porte atuam como outliers estatísticos.
@@ -26,7 +36,7 @@ Este repositório é o trabalho final desenvolvido para a disciplina **Análise 
 
 ---
 
-## Tecnologias Usadas
+# Tecnologias Usadas
 - Python (Pandas, NumPy, Matplotlib, Seaborn)
 - LaTex
 - Visual Studio Code
@@ -34,7 +44,7 @@ Este repositório é o trabalho final desenvolvido para a disciplina **Análise 
 
 ---
 
-## Como Executar
+# Como Executar
 Para fins didáticos, o seguinte passo a passo levará em consideração que o leitor possui instaladas as seguintes ferramentas:
 - **Git**.
 - **pyenv** (recomendado) ou **Python 3.11.5** instalado globalmente.
@@ -42,13 +52,13 @@ Para fins didáticos, o seguinte passo a passo levará em consideração que o l
 
 **Nota:** Caso o leitor já possua o Python 3.11.5 instalado globalmente em sua máquina, ignore os dois primeiros comandos do **Passo 2**.
 
-### 1. Clone o repositório
+## 1. Clone o repositório
 ```bash
 git clone https://github.com/VorAd2/aeronautical-occurrences-eda
 cd aeronautical-occurrences-eda
 ```
 
-### 2. Configure o ambiente virtual
+## 2. Configure o ambiente virtual
 ```bash
 pyenv install 3.11.5
 pyenv local 3.11.5
@@ -61,7 +71,7 @@ source .venv/bin/activate
 .venv\Scripts\Activate.ps1
 ```
 
-### 3. Instale as dependências
+## 3. Instale as dependências
 ```bash
 # Opção A: Autonomia para o pip decidir as versões compatíveis mais recentes das dependências.
 
@@ -72,15 +82,15 @@ pip install -r requirements.txt
 pip install -r requirements-lock.txt
 ```
 
-### 4. Run!!
+## 4. Run!!
 Existem duas formas simples de executar o notebook.
 
-#### Opção A: Via VS Code
+### Opção A: Via VS Code
 1. Com o diretório do projeto aberto no editor, abra o arquivo `main.ipynb`.
 2. Procure a opção **Select Kernel** e escolha `.venv (3.11.5) (Python 3.11.5)`.
 3. Clique no botão **Run All**.
 
-#### Opção B: Via Terminal Interativo (Jupyter Notebook)
+### Opção B: Via Terminal Interativo (Jupyter Notebook)
 Com o ambiente virtual ativado em um terminal aberto no diretório, execute:
 ```bash
 jupyter notebook main.ipynb
@@ -88,3 +98,6 @@ jupyter notebook main.ipynb
 
 O projeto será aberto automaticamente no seu navegador padrão.
 
+---
+# Licença
+[MIT](LICENSE)
