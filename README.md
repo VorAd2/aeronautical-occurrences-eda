@@ -1,4 +1,9 @@
 # ✈️ Análise Exploratória de Dados: Ocorrências Aeronáuticas no Brasil
+
+Este repositório é o trabalho final desenvolvido para a disciplina **Análise Exploratória de Dados (2026.1)**. O projeto realiza uma análise exploratória de dados sobre uma base pública de ocorrências aeronáuticas registradas no Brasil, investigando padrões de segurança operacional, perfil dos voos e danos humanos nos diferentes segmentos da aviação.
+
+**Relatório Completo:** [relatorio.pdf](/relatorio.pdf)
+
 <div align="center">
 
 [![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)](https://www.python.org/)
@@ -6,12 +11,6 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](LICENSE)
 
 </div>
-
-
-
-Este repositório é o trabalho final desenvolvido para a disciplina **Análise Exploratória de Dados (2026.1)**. O projeto realiza uma análise exploratória de dados sobre uma base pública de ocorrências aeronáuticas registradas no Brasil, investigando padrões de segurança operacional, perfil dos voos e danos humanos nos diferentes segmentos da aviação.
-
-**Relatório Completo:** [relatorio.pdf](/relatorio.pdf)
 
 ---
 
@@ -42,7 +41,7 @@ Este repositório é o trabalho final desenvolvido para a disciplina **Análise 
 ---
 
 # Tecnologias Usadas
-- Python (Pandas, NumPy, Matplotlib, Seaborn)
+- Python (Pandas, NumPy, Matplotlib, Seaborn) e Jupyter Notebook
 - LaTex
 - Visual Studio Code
 - Google Gemini
